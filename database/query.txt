@@ -1,0 +1,17 @@
+check username and password valid
+	select * from user where `email_id` = and  `password`=;
+	
+fetch inbox for userid
+	select `fk_mail_id`,`fk_thread_id`, `mail`.`fk_user_id` as user_create, `content`, `timestamp`, `is_cc`, `is_bcc` from `user_mail_sent_mapping` inner join `mail` on (`user_mail_sent_mapping`.`fk_mail_id`=`mail`.`mail_id`) where `user_mail_sent_mapping`.`fk_user_id` = ;
+
+
+	SELECT `fk_thread_id`, `user`.`email_id`, `thread`.`subject` FROM `user_mail_sent_mapping` INNER JOIN `mail` ON (`user_mail_sent_mapping`.`fk_mail_id`=`mail`.`mail_id`) INNER JOIN `thread` ON (`thread`.`thread_id`=`mail`.`fk_thread_id`) INNER JOIN `user` ON (`user`.`user_id`=`mail`.`fk_user_id`)WHERE `user_mail_sent_mapping`.`fk_user_id` = 2
+
+fetch all users to which mail was sent:
+	select `fk_user_id`, `is_cc`, `is_bcc` from `user_mail_sent_mapping` where `user_mail_sent_mapping`.`fk_mail_id` = ;
+
+
+fetch sentbox for userid
+	select `mail_id`,`fk_thread_id`, `content`, `timestamp` from `mail` where `fk_user_id` = ;
+
+	SELECT `fk_thread_id`, `user`.`email_id`, `thread`.`subject` FROM `mail` INNER JOIN `thread` ON (`thread`.`thread_id`=`mail`.`fk_thread_id`) INNER JOIN `user` ON (`user`.`user_id`=`mail`.`fk_user_id`) WHERE `mail`.`fk_user_id` = 2

@@ -1,0 +1,262 @@
+
+	<logger_data>
+		<severity>0</severity>
+		<message>user kshah215@gmail.com logged in</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>user kshah215@gmail.com logged in</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>user zeel.shah@gmail.com logged in</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>user kshah215@gmail.com logged in</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>entered function db_insert_thread() with subject hellaskdfjlaskdjf db_index 0</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>thread added to table thread with thread_id 2 
+</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>exiting function db_insert_thread() with inserted thread_id 2</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>entered function db_insert_mail() with fk_thread_id 2, fk_user_id 1, content kasdfjlasdkjflaskdjf</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>thread added to table mail with mail_id 2 
+</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>exiting function db_insert_mail() with inserted mail_id 2</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>entered function db_insert_user_mail_sent_mapping() with fk_mail_id 2, fk_user_id 2, is_cc 0, is_bcc 0</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>mapping added to table user_mail_sent_mapping with fk_mail_id 2 and fk_user_id 2 
+</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>exiting function db_insert_user_mail_sent_mapping() with successful 1</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>inserted mapping with successful 1</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>entered function db_insert_user_mail_sent_mapping() with fk_mail_id 2, fk_user_id -2, is_cc 1, is_bcc 0</message>
+	</logger_data>
+	<logger_data>
+		<severity>1</severity>
+		<message>sql query to insert values in user_mail_sent_mapping have problem, could not execute query INSERT into `user_mail_sent_mapping`(`fk_mail_id`, `fk_user_id`,  `is_cc`, `is_bcc`) values('2', '-2', '1', '0') with error Cannot add or update a child row: a foreign key constraint fails (`gmail`.`user_mail_sent_mapping`, CONSTRAINT `user_mail_sent_mapping_ibfk_2` FOREIGN KEY (`fk_user_id`) REFERENCES `user` (`user_id`))</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>exiting function db_insert_user_mail_sent_mapping() with successful 0</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>inserted mapping with successful 0</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>entered function db_insert_user_mail_sent_mapping() with fk_mail_id 2, fk_user_id -2, is_cc 0, is_bcc 1</message>
+	</logger_data>
+	<logger_data>
+		<severity>1</severity>
+		<message>sql query to insert values in user_mail_sent_mapping have problem, could not execute query INSERT into `user_mail_sent_mapping`(`fk_mail_id`, `fk_user_id`,  `is_cc`, `is_bcc`) values('2', '-2', '0', '1') with error Cannot add or update a child row: a foreign key constraint fails (`gmail`.`user_mail_sent_mapping`, CONSTRAINT `user_mail_sent_mapping_ibfk_2` FOREIGN KEY (`fk_user_id`) REFERENCES `user` (`user_id`))</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>exiting function db_insert_user_mail_sent_mapping() with successful 0</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>inserted mapping with successful 0</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>user kshah215@gmail.com logged in</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>user zeel.shah@gmail.com logged in</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>entered function db_insert_thread() with subject fasdfjasdf db_index 0</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>thread added to table thread with thread_id 3 
+</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>exiting function db_insert_thread() with inserted thread_id 3</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>entered function db_insert_mail() with fk_thread_id 3, fk_user_id 2, content dfhkasjdfhkjashdf</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>thread added to table mail with mail_id 3 
+</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>exiting function db_insert_mail() with inserted mail_id 3</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>entered function db_insert_user_mail_sent_mapping() with fk_mail_id 3, fk_user_id 1, is_cc 0, is_bcc 0</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>mapping added to table user_mail_sent_mapping with fk_mail_id 3 and fk_user_id 1 
+</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>exiting function db_insert_user_mail_sent_mapping() with successful 1</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>inserted mapping with successful 1</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>entered function db_insert_user_mail_sent_mapping() with fk_mail_id 3, fk_user_id 1, is_cc 1, is_bcc 0</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>mapping added to table user_mail_sent_mapping with fk_mail_id 3 and fk_user_id 1 
+</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>exiting function db_insert_user_mail_sent_mapping() with successful 1</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>inserted mapping with successful 1</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>entered function db_insert_user_mail_sent_mapping() with fk_mail_id 3, fk_user_id -2, is_cc 0, is_bcc 1</message>
+	</logger_data>
+	<logger_data>
+		<severity>1</severity>
+		<message>sql query to insert values in user_mail_sent_mapping have problem, could not execute query INSERT into `user_mail_sent_mapping`(`fk_mail_id`, `fk_user_id`,  `is_cc`, `is_bcc`) values('3', '-2', '0', '1') with error Cannot add or update a child row: a foreign key constraint fails (`gmail`.`user_mail_sent_mapping`, CONSTRAINT `user_mail_sent_mapping_ibfk_2` FOREIGN KEY (`fk_user_id`) REFERENCES `user` (`user_id`))</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>exiting function db_insert_user_mail_sent_mapping() with successful 0</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>inserted mapping with successful 0</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>entered function db_insert_thread() with subject safd db_index 0</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>thread added to table thread with thread_id 4 
+</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>exiting function db_insert_thread() with inserted thread_id 4</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>entered function db_insert_mail() with fk_thread_id 4, fk_user_id 2, content dfs</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>thread added to table mail with mail_id 4 
+</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>exiting function db_insert_mail() with inserted mail_id 4</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>entered function db_insert_user_mail_sent_mapping() with fk_mail_id 4, fk_user_id 1, is_cc 0, is_bcc 0</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>mapping added to table user_mail_sent_mapping with fk_mail_id 4 and fk_user_id 1 
+</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>exiting function db_insert_user_mail_sent_mapping() with successful 1</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>inserted mapping with successful 1</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>entered function db_insert_thread() with subject hi how are you? db_index 0</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>thread added to table thread with thread_id 5 
+</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>exiting function db_insert_thread() with inserted thread_id 5</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>entered function db_insert_mail() with fk_thread_id 5, fk_user_id 2, content kajsdflkasjdflkajsdlfkjasldfj</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>thread added to table mail with mail_id 5 
+</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>exiting function db_insert_mail() with inserted mail_id 5</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>entered function db_insert_user_mail_sent_mapping() with fk_mail_id 5, fk_user_id 1, is_cc 0, is_bcc 0</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>mapping added to table user_mail_sent_mapping with fk_mail_id 5 and fk_user_id 1 
+</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>exiting function db_insert_user_mail_sent_mapping() with successful 1</message>
+	</logger_data>
+	<logger_data>
+		<severity>0</severity>
+		<message>inserted mapping with successful 1</message>
+	</logger_data>
